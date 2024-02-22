@@ -20,8 +20,12 @@
 package org.ethereum.config;
 
 import co.rsk.bitcoinj.core.BtcECKey;
-import co.rsk.config.*;
 import co.rsk.core.BlockDifficulty;
+import co.rsk.peg.constants.BridgeConstants;
+import co.rsk.peg.constants.BridgeDevNetConstants;
+import co.rsk.peg.constants.BridgeMainNetConstants;
+import co.rsk.peg.constants.BridgeRegTestConstants;
+import co.rsk.peg.constants.BridgeTestNetConstants;
 import org.bouncycastle.util.encoders.Hex;
 import org.ethereum.config.blockchain.upgrades.ActivationConfig;
 import org.ethereum.config.blockchain.upgrades.ConsensusRule;

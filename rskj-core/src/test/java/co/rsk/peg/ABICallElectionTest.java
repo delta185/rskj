@@ -19,6 +19,9 @@
 package co.rsk.peg;
 
 import co.rsk.core.RskAddress;
+import co.rsk.peg.abielection.ABICallElection;
+import co.rsk.peg.abielection.ABICallSpec;
+import co.rsk.peg.authorizer.AddressBasedAuthorizer;
 import org.bouncycastle.util.encoders.Hex;
 import org.ethereum.TestUtils;
 import org.ethereum.crypto.ECKey;

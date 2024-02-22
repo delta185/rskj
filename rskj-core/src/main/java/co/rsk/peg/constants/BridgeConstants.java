@@ -16,12 +16,12 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package co.rsk.config;
+package co.rsk.peg.constants;
 
 import co.rsk.bitcoinj.core.BtcECKey;
 import co.rsk.bitcoinj.core.Coin;
 import co.rsk.bitcoinj.core.NetworkParameters;
-import co.rsk.peg.AddressBasedAuthorizer;
+import co.rsk.peg.authorizer.AddressBasedAuthorizer;
 import co.rsk.peg.federation.Federation;
 import java.util.List;
 
@@ -31,7 +31,7 @@ import org.ethereum.config.blockchain.upgrades.ConsensusRule;
 public abstract class BridgeConstants {
     protected String btcParamsString;
 
-    protected Federation genesisFederation;
+//    protected Federation genesisFederation;
 
     protected int btc2RskMinimumAcceptableConfirmations;
     protected int btc2RskMinimumAcceptableConfirmationsOnRsk;

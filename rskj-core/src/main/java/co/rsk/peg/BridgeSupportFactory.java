@@ -18,10 +18,10 @@
 package co.rsk.peg;
 
 import co.rsk.bitcoinj.core.Context;
-import co.rsk.config.BridgeConstants;
+import co.rsk.peg.constants.BridgeConstants;
 import co.rsk.core.RskAddress;
 import co.rsk.peg.BtcBlockStoreWithCache.Factory;
-import co.rsk.peg.btcLockSender.BtcLockSenderProvider;
+import co.rsk.peg.bitcoin.btcLockSender.BtcLockSenderProvider;
 import co.rsk.peg.pegininstructions.PeginInstructionsProvider;
 import co.rsk.peg.utils.BridgeEventLogger;
 import co.rsk.peg.utils.BridgeEventLoggerImpl;

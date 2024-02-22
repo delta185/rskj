@@ -1,4 +1,4 @@
-package co.rsk.peg.btcLockSender;
+package co.rsk.peg.bitcoin.btcLockSender;
 
 import co.rsk.bitcoinj.core.Address;
 import co.rsk.bitcoinj.core.BtcTransaction;

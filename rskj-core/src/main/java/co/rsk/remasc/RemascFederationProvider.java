@@ -17,7 +17,7 @@
  */
 package co.rsk.remasc;
 
-import co.rsk.config.BridgeConstants;
+import co.rsk.peg.constants.BridgeConstants;
 import co.rsk.core.RskAddress;
 import co.rsk.peg.BridgeStorageProvider;
 import co.rsk.peg.FederationSupport;

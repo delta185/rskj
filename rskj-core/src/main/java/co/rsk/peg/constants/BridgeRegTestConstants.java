@@ -16,12 +16,12 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package co.rsk.config;
+package co.rsk.peg.constants;
 
 import co.rsk.bitcoinj.core.BtcECKey;
 import co.rsk.bitcoinj.core.Coin;
 import co.rsk.bitcoinj.core.NetworkParameters;
-import co.rsk.peg.AddressBasedAuthorizer;
+import co.rsk.peg.authorizer.AddressBasedAuthorizer;
 import co.rsk.peg.federation.FederationArgs;
 import co.rsk.peg.federation.FederationMember;
 import co.rsk.peg.federation.FederationFactory;

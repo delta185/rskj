@@ -19,6 +19,7 @@
 package co.rsk.peg;
 
 import co.rsk.core.RskAddress;
+import co.rsk.peg.authorizer.AddressBasedAuthorizer;
 import org.ethereum.core.BlockTxSignatureCache;
 import org.ethereum.core.ReceivedTxSignatureCache;
 import org.ethereum.core.SignatureCache;

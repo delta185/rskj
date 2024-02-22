@@ -1,8 +1,8 @@
 package co.rsk.peg;
 
 import co.rsk.bitcoinj.core.Sha256Hash;
-import co.rsk.config.BridgeConstants;
-import co.rsk.config.BridgeMainNetConstants;
+import co.rsk.peg.constants.BridgeConstants;
+import co.rsk.peg.constants.BridgeMainNetConstants;
 import co.rsk.core.RskAddress;
 import co.rsk.peg.bitcoin.BitcoinTestUtils;
 import org.ethereum.config.blockchain.upgrades.ActivationConfig;

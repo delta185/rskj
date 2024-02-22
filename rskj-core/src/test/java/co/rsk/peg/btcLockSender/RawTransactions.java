@@ -1,6 +1,6 @@
 package co.rsk.peg.btcLockSender;
 
-import co.rsk.peg.btcLockSender.BtcLockSender.TxSenderAddressType;
+import co.rsk.peg.bitcoin.btcLockSender.BtcLockSender.TxSenderAddressType;
 import java.util.HashMap;
 import java.util.Map;
 

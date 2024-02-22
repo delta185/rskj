@@ -1,9 +1,11 @@
 package co.rsk.peg.btcLockSender;
 
 import co.rsk.bitcoinj.core.*;
-import co.rsk.config.BridgeConstants;
-import co.rsk.config.BridgeRegTestConstants;
-import co.rsk.peg.btcLockSender.BtcLockSender.TxSenderAddressType;
+import co.rsk.peg.bitcoin.btcLockSender.BtcLockSender;
+import co.rsk.peg.bitcoin.btcLockSender.P2shMultisigBtcLockSender;
+import co.rsk.peg.constants.BridgeConstants;
+import co.rsk.peg.constants.BridgeRegTestConstants;
+import co.rsk.peg.bitcoin.btcLockSender.BtcLockSender.TxSenderAddressType;
 import org.bouncycastle.util.encoders.Hex;
 import org.ethereum.crypto.HashUtil;
 import org.junit.jupiter.api.Assertions;

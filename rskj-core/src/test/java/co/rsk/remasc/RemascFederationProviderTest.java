@@ -1,7 +1,7 @@
 package co.rsk.remasc;
 
 import co.rsk.blockchain.utils.BlockGenerator;
-import co.rsk.config.BridgeRegTestConstants;
+import co.rsk.peg.constants.BridgeRegTestConstants;
 import co.rsk.test.builders.BlockChainBuilder;
 import org.ethereum.config.blockchain.upgrades.ActivationConfigsForTest;
 import org.ethereum.core.Blockchain;
